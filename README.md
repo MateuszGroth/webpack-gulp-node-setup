@@ -4,6 +4,18 @@ Gulp is responsible for compiling styles.
 
 Webpack compiles react code.
 
+### Get the necessary npm packages
+
+```shell
+    npm install
+```
+
+If you do not have gulp installed globally, run:
+
+```shell
+    npm install gulp -g
+```
+
 ### Webpack usage
 
 To build valid js code from react code, create entries at `./src` and add them to webpack config **entries** list. The code built from the entry goes to `./public/<entry-name>/index.js`.
